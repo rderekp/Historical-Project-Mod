@@ -1789,6 +1789,7 @@ native_american = {
 		}
 	}
 	dakota = {
+		primary = DAK
 		color = {117 84 13}
 		first_names = { Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
 		}
@@ -1796,6 +1797,7 @@ native_american = {
 		}
 	}
 	cherokee = {
+		primary = CHE
 		color = {136 114 173}
 		first_names = { John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
 		}
@@ -1922,6 +1924,7 @@ neo_european_cultures = {
 		radicalism = 10
 	}
 	alaskan = {
+		primary = LSK
 		color = { 14 139 80 }
 			first_names = {Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
 			Joseph Charles Russell eksandr Alexei Andrei Anton Boris Dmitry Fyodor Gennady Giorgi Grigoriy Igor Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
