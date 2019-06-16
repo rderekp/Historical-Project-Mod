@@ -442,6 +442,7 @@ country_event = {
 						region = USA_78
 						region = USA_81
 						region = CAN_13
+						region = CAN_18
 						region = JAP_1088
 					}
 				}					

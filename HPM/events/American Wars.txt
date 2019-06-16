@@ -607,7 +607,7 @@ country_event = {
 		prestige = -10
 		USA = { country_event = 44152 }
 		CAN_13 = { add_core = ENG }
-		#CAN_18 = { add_core = ENG }
+		CAN_18 = { add_core = ENG }
 		ENG_22 = { add_core = ENG }
 		USA_78 = {
 			remove_core = COL
@@ -628,6 +628,10 @@ country_event = {
 			remove_core = COL
 		}
 		CAN_13 = {
+			add_core = COL
+			remove_core = RPL
+		}
+		CAN_18 = {
 			add_core = COL
 			remove_core = RPL
 		}
@@ -713,7 +717,7 @@ country_event = {
 			limit = {
 				OR = {
 					region = CAN_13
-					#region = CAN_18
+					region = CAN_18
 					region = ENG_22
 				}
 			}
@@ -962,6 +966,7 @@ country_event = {
 		78 = { add_core = ENG }
 		79 = { add_core = ENG }
 		CAN_13 = { add_core = ENG }
+		CAN_18 = { add_core = ENG }
 		ENG_22 = { add_core = ENG }
 		USA_81 = {
 			add_core = USA

@@ -1197,7 +1197,7 @@ country_event = {
 		OR = {
 			any_owned_province = {
 				OR = {
-					#region = ENG_6
+					region = ENG_6
 					region = ENG_9
 					region = ENG_22
 					region = ENG_30
@@ -1242,7 +1242,7 @@ country_event = {
 	
 	option = {
 		name = "EVT44320OPTA"
-		#ENG_6 = { remove_core = THIS }
+		ENG_6 = { remove_core = THIS }
 		ENG_9 = { remove_core = THIS }
 		ENG_22 = { remove_core = THIS }
 		ENG_30 = { remove_core = THIS }
@@ -1263,6 +1263,7 @@ country_event = {
 				}
 			}
 			CAN_13 = { remove_core = THIS }
+			CAN_18 = { remove_core = THIS }
 			COL = { all_core = { remove_core = THIS } }
 		}
 		CAN = { country_event = 44321 }
@@ -1282,7 +1283,7 @@ country_event = {
 	option = {
 		name = "EVT44320OPTB"
 		set_country_flag = refused_ruperts_land
-		#ENG_6 = { remove_core = THIS }
+		ENG_6 = { remove_core = THIS }
 		ENG_9 = { remove_core = THIS }
 		ENG_22 = { remove_core = THIS }
 		ENG_30 = { remove_core = THIS }
@@ -1303,6 +1304,7 @@ country_event = {
 				}
 			}
 			CAN_13 = { remove_core = THIS }
+			CAN_18 = { remove_core = THIS }
 			COL = { all_core = { remove_core = THIS } }
 		}
 		CAN = { country_event = 44322 }
@@ -1340,10 +1342,10 @@ country_event = {
 		set_country_flag = agreed_ruperts_land
 		prestige = 10
 		treasury = -50000
-		#ENG_6 = {
-		#	remove_core = RPL
-		#	add_core = CAN
-		#}
+		ENG_6 = {
+			remove_core = RPL
+			add_core = CAN
+		}
 		ENG_9 = {
 			remove_core = RPL
 			add_core = CAN
@@ -1407,6 +1409,10 @@ country_event = {
 					add_core = CAN
 					remove_core = RPL
 				}
+				CAN_18 = {
+					add_core = CAN
+					remove_core = RPL
+				}
 				COL = { all_core = { add_core = CAN } }
 				owner = { set_country_flag = british_columbia_organized }
 			}
@@ -1433,7 +1439,7 @@ country_event = {
 		set_country_flag = refused_ruperts_land
 		FROM = { set_country_flag = refused_ruperts_land }
 		prestige = -20
-		#ENG_6 = { add_core = CAN }
+		ENG_6 = { add_core = CAN }
 		ENG_9 = { add_core = CAN }
 		ENG_22 = { add_core = CAN }
 		ENG_30 = { add_core = CAN }
@@ -1455,6 +1461,7 @@ country_event = {
 					owner = { NOT = { has_country_flag = british_columbia_organized } }
 				}
 				CAN_13 = { add_core = CAN }
+				CAN_18 = { add_core = CAN }
 				COL = { all_core = { add_core = CAN } }
 				owner = { set_country_flag = british_columbia_organized }
 			}
@@ -1486,7 +1493,7 @@ country_event = {
 		name = "EVT44322OPTA"
 		set_country_flag = refused_ruperts_land
 		prestige = -20
-		#ENG_6 = { add_core = CAN }
+		ENG_6 = { add_core = CAN }
 		ENG_9 = { add_core = CAN }
 		ENG_22 = { add_core = CAN }
 		ENG_30 = { add_core = CAN }
