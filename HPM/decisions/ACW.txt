@@ -1222,6 +1222,7 @@ political_decisions = {
 							region = USA_78
 							region = USA_81
 							region = CAN_13
+							region = CAN_18
 							region = JAP_1088
 						}
 					}					
